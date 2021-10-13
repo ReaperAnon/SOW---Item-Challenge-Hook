@@ -30,7 +30,6 @@ namespace GameHook
         }
     }
 
-    bool IsSkillHookEnabled = true;
     bool CreateItemChallengeHook()
     {
         itemChallengeAddress = pScanner.PerformModuleScan(bytePattern, patternLength, patternOffset, moduleName);
